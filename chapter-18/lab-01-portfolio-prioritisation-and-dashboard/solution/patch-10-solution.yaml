@@ -1,0 +1,40 @@
+# Lab 18.1 solution overlay. Merged over config.yaml.
+backlog:
+- id: B1
+  name: Customs document checker v2
+  value: 8
+  risk: 3
+  effort: 3
+  uses:
+  - Agent Gateway
+  - evaluation harness
+  - logging pipeline
+- id: B2
+  name: Driver onboarding assistant
+  value: 6
+  risk: 2
+  effort: 2
+  uses:
+  - agent identity pattern
+  - Agent Gateway
+  - logging pipeline
+- id: B3
+  name: Supplier invoice agent
+  value: 9
+  risk: 4
+  effort: 4
+  uses:
+  - agent identity pattern
+  - Agent Gateway
+  - logging pipeline
+  - evaluation harness
+dashboard:
+- metric: Claim cycle time
+  source: Claims event log
+  owner: u001
+- metric: Agent cost per outcome
+  source: Billing export
+  owner: u002
+- metric: Escalation rate
+  source: Agent logs
+  owner: u008

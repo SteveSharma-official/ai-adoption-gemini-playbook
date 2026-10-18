@@ -1,0 +1,20 @@
+# Lab 5.1 solution overlay. Merged over config.yaml.
+architecture:
+  layers:
+    security_and_governance:
+    - Cloud IAM and organisation policies
+    - VPC Service Controls perimeter
+    - Agent Gateway with Model Armor
+    - Workspace DLP and Drive labels
+    - Cloud Audit Logs to SIEM
+  agents:
+  - name: Freight Ops Assistant
+    identity: freight-assistant@kestrel-ops.iam.gserviceaccount.com
+    owner: u001
+    logging: Cloud Logging sink agent-audit
+    classification: internal
+  - name: Procurement Agent
+    identity: procure-agent@kestrel-ops.iam.gserviceaccount.com
+    owner: u002
+    logging: Cloud Logging sink agent-audit
+    classification: internal

@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 14.1 break it safely: A configuration change lets the agent suggest medication changes.
+agent_outputs:
+- patient: P-1002
+  type: draft_discharge_summary
+- patient: P-1001
+  type: change_medication

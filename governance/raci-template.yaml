@@ -1,0 +1,9 @@
+# AI Operating Model RACI (template)
+agent: "<agent name>"
+accountable: "<one named person>"
+responsible: "<team or person who runs it>"
+consulted: ["Security", "Privacy", "<business SME>"]
+informed: ["Service desk", "<process owners>"]
+runbook:
+  disable_steps: ["Disable the agent", "Remove identity bindings", "Notify users"]
+  last_drill: null

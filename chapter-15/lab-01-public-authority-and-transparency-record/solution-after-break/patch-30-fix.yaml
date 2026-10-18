@@ -1,0 +1,9 @@
+# Lab 15.1 fix after the break. Merged last.
+applications__remove:
+- APP-304
+applications__append:
+- id: APP-304
+  outcome: refused
+  adverse: true
+  decided_by: human
+  reasons_recorded: true

@@ -1,0 +1,17 @@
+# Lab 12.3 solution overlay. Merged over config.yaml.
+checklist:
+- item: Evaluation scorecard green
+  evidence: evidence-store/evaluation-scorecard.md
+  signed_by: u001
+- item: Red team clean
+  evidence: evidence-store/red-team-report.md
+  signed_by: u008
+- item: Exposure remediated
+  evidence: evidence-store/exposure-report.md
+  signed_by: u008
+- item: Authority matrix signed
+  evidence: evidence-store/authority-matrix.md
+  signed_by: u002
+- item: Runbook and kill switch tested
+  evidence: evidence-store/runbook.md
+  signed_by: u008

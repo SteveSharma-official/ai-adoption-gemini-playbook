@@ -1,0 +1,30 @@
+# Lab 8.2 OWASP Agentic Threat Model: starter inputs (synthetic).
+control_catalogue:
+- Agent Gateway policy
+- Model Armor screening
+- Tool allowlist
+- Approval gate
+- Scoped agent identity
+- VPC Service Controls
+- Dependency pinning and review
+- Agent Sandbox for code execution
+- Data store freshness and provenance
+- Signed inter-agent calls (A2A auth)
+- Circuit breaker and rate limits
+- User-facing AI disclosure
+- Agent Register and owner
+- Kill switch
+threats:
+  ASI01:
+    controls:
+    - Model Armor screening
+    owner: u008
+  ASI02:
+    controls:
+    - Tool allowlist
+    - Approval gate
+    owner: u008
+  ASI03:
+    controls:
+    - Scoped agent identity
+    owner: u008

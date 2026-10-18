@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab Capstone break it safely: A late change lets the agent pay claims directly.
+case:
+  consequential_actions:
+  - action: approve_claim_payment
+    agent: approval
+  - action: pay_claim
+    agent: allowed

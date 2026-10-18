@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 7.1 break it safely: A developer calls the ERP API directly from the agent 'for speed'.
+requests__append:
+- id: R6
+  action: create_purchase_order
+  amount: 30000
+  consequential: true
+  channel: direct

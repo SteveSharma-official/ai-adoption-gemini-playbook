@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 16.2 break it safely: Price changes are re-enabled for a 'dynamic offers' trial.
+agent_can_execute:
+- refund
+- price_change

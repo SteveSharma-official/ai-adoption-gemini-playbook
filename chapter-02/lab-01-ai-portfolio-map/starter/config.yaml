@@ -1,0 +1,34 @@
+# Lab 2.1 Enterprise AI Portfolio Map: starter inputs (synthetic).
+platforms:
+  Gemini Enterprise:
+    sanctioned: true
+    identity_boundary: Cloud Identity / Google Workspace
+    home_data:
+    - BigQuery
+    - Google Drive
+    - Gmail
+  Microsoft 365 Copilot:
+    sanctioned: true
+    identity_boundary: Entra ID (Customs Brokerage tenant)
+    home_data:
+    - SharePoint
+    - Exchange
+  Claude (API):
+    sanctioned: true
+    identity_boundary: Engineering SSO and API gateway
+    home_data:
+    - Code repositories
+  ChatGPT (personal):
+    sanctioned: false
+    identity_boundary: null
+    home_data: []
+workloads:
+- id: ops-delivery-analysis
+  data_location: BigQuery
+  platform: Gemini Enterprise
+- id: customs-email-drafting
+  data_location: Exchange
+  platform: Gemini Enterprise
+- id: route-analysis
+  data_location: BigQuery
+  platform: ChatGPT (personal)

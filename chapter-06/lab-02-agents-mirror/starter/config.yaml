@@ -1,0 +1,9 @@
+# Lab 6.2 The Agent's Mirror: starter inputs (synthetic).
+query:
+  user: u012
+  terms:
+  - salary
+  - payroll
+  - remuneration
+remediation: {}
+group_changes: {}

@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 17.3 break it safely: Budget alerts are deleted during a project migration.
+guardrails:
+  budget_alerts: []

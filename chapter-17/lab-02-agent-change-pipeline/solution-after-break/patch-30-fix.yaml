@@ -1,0 +1,10 @@
+# Lab 17.2 fix after the break. Merged last.
+changes__remove:
+- CHG-103
+changes__append:
+- id: CHG-103
+  type: model
+  model_version: gemini-model-pinned-2026-10
+  eval_passed: true
+  approved_by: u001
+  deployed: true

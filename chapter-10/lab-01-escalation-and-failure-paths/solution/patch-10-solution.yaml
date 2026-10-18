@@ -1,0 +1,8 @@
+# Lab 10.1 solution overlay. Merged over config.yaml.
+agent:
+  confidence_threshold: 0.7
+  escalate_states:
+  - WA
+  always_escalate_topics:
+  - wellbeing
+  escalation_target: People Advisory queue (4 business hours)

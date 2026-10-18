@@ -1,0 +1,11 @@
+# Human-Agent Authority Matrix (template). Values: allowed | approval | never
+agent: "<agent name>"
+signed_by: ["<business owner>", "<risk owner>"]
+consequential_threshold: 5000
+gateway_only: true
+human_only: [pay_supplier, change_bank_details]
+actions:
+  read_record: {agent: allowed}
+  draft_document: {agent: allowed}
+  create_purchase_order: {agent: approval, auto_limit: 5000, approver: "<role>"}
+  pay_supplier: {agent: never}

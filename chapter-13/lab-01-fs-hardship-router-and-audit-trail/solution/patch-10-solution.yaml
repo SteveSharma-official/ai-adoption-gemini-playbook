@@ -1,0 +1,7 @@
+# Lab 13.1 solution overlay. Merged over config.yaml.
+router:
+  enabled: true
+agent:
+  action_for:
+    summarise_account: prepare_summary
+    limit_increase: prepare_summary_for_lender

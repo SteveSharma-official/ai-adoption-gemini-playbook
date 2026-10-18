@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 2.1 break it safely: Finance adds a payroll forecast on personal ChatGPT.
+workloads__append:
+- id: payroll-forecast
+  data_location: BigQuery
+  platform: ChatGPT (personal)

@@ -1,0 +1,18 @@
+# Lab 17.3 solution overlay. Merged over config.yaml.
+guardrails:
+  budget_alerts:
+  - 0.5
+  - 0.9
+  - 1.0
+  monthly_cap: 5000
+agents:
+- name: Claims Assistant
+  monthly_calls: 52000
+  cost_per_call: 0.04
+  outcomes_per_month: 420
+  value_per_outcome: 22
+- name: Quote Drafting
+  monthly_calls: 30000
+  cost_per_call: 0.03
+  outcomes_per_month: 150
+  value_per_outcome: 18

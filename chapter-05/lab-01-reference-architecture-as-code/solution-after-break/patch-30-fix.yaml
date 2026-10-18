@@ -1,0 +1,11 @@
+# Lab 5.1 fix after the break. Merged last.
+architecture:
+  agents__remove:
+  - Quote Agent
+  agents__append:
+  - name: Quote Agent
+    identity: quote-agent@kestrel-ops.iam.gserviceaccount.com
+    owner: u009
+    logging: Cloud Logging sink agent-audit
+    classification: internal
+    google_search_grounding: false

@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.3 break it safely: A developer grants roles/editor to the Procurement Agent to fix a permission error.
+add_bindings__append:
+- role: roles/editor
+  member: serviceAccount:procure-agent@kestrel-ops.iam.gserviceaccount.com
+  resource: project

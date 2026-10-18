@@ -1,0 +1,11 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 18.1 break it safely: Sales submits a bespoke stack.
+backlog__append:
+- id: B4
+  name: Sales forecasting agent
+  value: 7
+  risk: 3
+  effort: 5
+  uses: []
+  bespoke:
+  - agent identity pattern
+  - logging pipeline

@@ -1,0 +1,29 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 9.1 break it safely: A second process is quietly added to the pilot.
+candidates:
+- id: claims
+  name: Freight claims handling
+  volume_per_month: 420
+  hours_per_case: 2.5
+  data_ready: true
+  rules_documented: true
+  owner: u001
+  baseline_measured: true
+  selected: true
+- id: month-end
+  name: Month-end accrual reconciliation
+  volume_per_month: 60
+  hours_per_case: 6
+  data_ready: false
+  rules_documented: false
+  owner: u002
+  baseline_measured: false
+  selected: false
+- id: driver-onboarding
+  name: Driver onboarding checks
+  volume_per_month: 90
+  hours_per_case: 3
+  data_ready: true
+  rules_documented: false
+  owner: u003
+  baseline_measured: false
+  selected: true

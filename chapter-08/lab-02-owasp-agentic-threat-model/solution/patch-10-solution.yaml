@@ -1,0 +1,33 @@
+# Lab 8.2 solution overlay. Merged over config.yaml.
+threats:
+  ASI04:
+    controls:
+    - Dependency pinning and review
+    owner: u008
+  ASI05:
+    controls:
+    - Agent Sandbox for code execution
+    owner: u008
+  ASI06:
+    controls:
+    - Data store freshness and provenance
+    - Model Armor screening
+    owner: u003
+  ASI07:
+    controls:
+    - Signed inter-agent calls (A2A auth)
+    owner: u008
+  ASI08:
+    controls:
+    - Circuit breaker and rate limits
+    owner: u008
+  ASI09:
+    controls:
+    - User-facing AI disclosure
+    - Approval gate
+    owner: u001
+  ASI10:
+    controls:
+    - Agent Register and owner
+    - Kill switch
+    owner: u008

@@ -1,0 +1,6 @@
+# Lab 6.3 fix after the break. Merged last.
+add_bindings__remove: []
+add_bindings:
+- role: roles/discoveryengine.viewer
+  member: serviceAccount:hr-answers@kestrel-ops.iam.gserviceaccount.com
+  resource: project

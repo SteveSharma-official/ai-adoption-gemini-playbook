@@ -1,0 +1,20 @@
+# Lab 6.3 solution overlay. Merged over config.yaml.
+remove_bindings:
+- role: roles/bigquery.dataViewer
+  member: serviceAccount:freight-assistant@kestrel-ops.iam.gserviceaccount.com
+  resource: dataset:telematics_raw
+- role: roles/editor
+  member: serviceAccount:hr-answers@kestrel-ops.iam.gserviceaccount.com
+  resource: project
+- role: roles/editor
+  member: serviceAccount:123456789-compute@developer.gserviceaccount.com
+  resource: project
+add_bindings:
+- role: roles/discoveryengine.viewer
+  member: serviceAccount:hr-answers@kestrel-ops.iam.gserviceaccount.com
+  resource: project
+sa_changes:
+  freight-assistant@kestrel-ops.iam.gserviceaccount.com:
+    keys: []
+  hr-answers@kestrel-ops.iam.gserviceaccount.com:
+    owner: u003

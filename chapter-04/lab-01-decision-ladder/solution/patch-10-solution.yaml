@@ -1,0 +1,11 @@
+# Lab 4.1 solution overlay. Merged over config.yaml.
+workloads:
+- id: meeting-summaries
+  chosen_rung: Buy
+- id: supplier-invoice-processing
+  workflow_specific: true
+  acts_on_enterprise_systems: true
+  chosen_rung: Integrate
+- id: claims-triage
+  workflow_specific: true
+  chosen_rung: Configure

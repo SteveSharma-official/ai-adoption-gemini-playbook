@@ -1,0 +1,7 @@
+# Lab 6.3 Agent Identity and IAM Audit: starter inputs (synthetic).
+restricted_resources:
+- dataset:telematics_raw
+max_key_age_days: 90
+remove_bindings: []
+add_bindings: []
+sa_changes: {}

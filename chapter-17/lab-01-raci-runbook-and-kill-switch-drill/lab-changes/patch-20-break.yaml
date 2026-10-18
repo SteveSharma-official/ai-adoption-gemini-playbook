@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 17.1 break it safely: The Freight Ops Assistant's accountable owner field is changed to a leaver during a restructure.
+raci:
+  ag-01:
+    accountable: u048

@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 13.1 break it safely: Someone edits a record to hide a routing decision.
+tamper:
+- index: 1
+  field: routed_to
+  value: standard queue

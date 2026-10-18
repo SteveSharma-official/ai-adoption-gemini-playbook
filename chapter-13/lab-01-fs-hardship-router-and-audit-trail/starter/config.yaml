@@ -1,0 +1,31 @@
+# Lab 13.1 Financial Services Hardship Router and Agentic Audit Trail: starter inputs (synthetic).
+agent:
+  model_version: gemini-model-pinned-2026-09
+  action_for:
+    summarise_account: prepare_summary
+    limit_increase: approve_credit
+router:
+  enabled: false
+  hardship_keywords:
+  - lost my job
+  - can't pay
+  - hardship
+  - medical bills
+  - separated
+  route_to: Financial Hardship team
+cases:
+- id: FS-01
+  request: summarise_account
+  message: Can you summarise my account activity?
+  sources:
+  - core-banking:acct-881
+- id: FS-02
+  request: limit_increase
+  message: I lost my job and can't pay this month, can I get a higher limit?
+  sources:
+  - core-banking:acct-414
+- id: FS-03
+  request: summarise_account
+  message: Medical bills have piled up, what do I owe?
+  sources:
+  - core-banking:acct-207

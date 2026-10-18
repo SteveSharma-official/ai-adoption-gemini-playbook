@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 2.2 break it safely: A new AI slide app appears with Drive read access for 11 users.
+new_grants:
+- app: SlideGenie AI
+  scopes: drive.readonly presentations
+  users: 11
+  sanctioned: 'no'
+  data_access: drive

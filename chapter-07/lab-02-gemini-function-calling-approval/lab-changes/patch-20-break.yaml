@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 7.2 break it safely: A developer declares execute_payment 'for a demo'.
+tools__append:
+- name: execute_payment
+  consequential: true

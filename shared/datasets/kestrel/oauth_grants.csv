@@ -1,0 +1,5 @@
+app,scopes,users,sanctioned,data_access
+Gemini (sanctioned),workspace,58,yes,drive
+MeetNotes AI,drive.readonly calendar,14,no,drive
+PDF Chat Pro,drive.file,6,no,drive
+Grammar Helper,gmail.compose,9,no,gmail

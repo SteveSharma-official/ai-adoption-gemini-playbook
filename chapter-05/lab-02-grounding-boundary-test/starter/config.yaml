@@ -1,0 +1,10 @@
+# Lab 5.2 Grounding Boundary and Source Freshness: starter inputs (synthetic).
+agent:
+  name: HR Answers Agent
+  include_superseded: false
+  refuse_when_silent: false
+tests:
+- q: how many weeks of paid parental leave do primary carers get
+  expect: answer
+- q: what is the company car allowance
+  expect: refuse

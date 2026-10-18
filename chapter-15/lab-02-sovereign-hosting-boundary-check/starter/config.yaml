@@ -1,0 +1,22 @@
+# Lab 15.2 Sovereign Hosting Boundary Check: starter inputs (synthetic).
+allowed_regions:
+- australia-southeast1
+- australia-southeast2
+irap_products_in_scope:
+- Gemini for Workspace
+- Gemini for Google Cloud
+- Generative AI on Vertex AI
+- Vertex AI Search
+- BigQuery
+- Cloud Logging
+- Cloud Storage
+deployment:
+  services:
+  - Gemini Enterprise app
+  - Generative AI on Vertex AI
+  - BigQuery
+  - Cloud Logging
+  data_region: australia-southeast1
+  model_endpoint_region: global
+  agency_authorisation: {}
+  confirmations: {}

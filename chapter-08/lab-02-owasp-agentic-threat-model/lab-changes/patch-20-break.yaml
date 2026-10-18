@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 8.2 break it safely: Someone removes the memory and context poisoning controls 'because the agent has no memory yet'.
+threats:
+  ASI06:
+    controls: []
+    owner: u003

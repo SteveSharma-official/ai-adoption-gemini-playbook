@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 1.1 break it safely: A well-meaning analyst adds the Finance Shared Drive as a source 'so the agent can explain cost'.
+agent:
+  sources__append:
+  - Finance Shared Drive

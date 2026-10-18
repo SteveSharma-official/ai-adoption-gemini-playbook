@@ -1,0 +1,4 @@
+# Lab 0.2 solution overlay. Merged over config.yaml.
+claimed_level: 2
+evidence:
+  data_boundary: ops_curated dataset only; Drive excluded until Lab 6.1 passes

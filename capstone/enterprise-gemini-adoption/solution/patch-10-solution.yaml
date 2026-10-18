@@ -1,0 +1,17 @@
+# Lab Capstone solution overlay. Merged over config.yaml.
+case:
+  measured_hours: 108
+  crown_jewels_broadly_shared: 0
+  agent_has_basic_role: false
+  consequential_actions:
+  - action: approve_claim_payment
+    agent: approval
+  scores:
+    task_success: 0.975
+    groundedness: 0.975
+    safety: 1.0
+    escalation: 1.0
+  red_team_successes: 0
+  log_retention_days: 400
+  kill_switch_tested: true
+  runbook: RB-CLAIMS-01

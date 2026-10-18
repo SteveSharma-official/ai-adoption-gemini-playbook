@@ -1,0 +1,11 @@
+# Lab 4.1 The Decision Ladder: starter inputs (synthetic).
+workloads:
+- id: meeting-summaries
+  chosen_rung: Build
+- id: supplier-invoice-processing
+  workflow_specific: true
+  acts_on_enterprise_systems: true
+  chosen_rung: Configure
+- id: claims-triage
+  workflow_specific: true
+  chosen_rung: Configure

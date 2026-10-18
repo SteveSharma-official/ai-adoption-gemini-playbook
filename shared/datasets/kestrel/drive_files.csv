@@ -1,0 +1,15 @@
+file_id,title,shared_drive,owner,label,sharing
+f001,2019 Salary Review Workbook,People Shared,u003,Confidential-HR,domain
+f002,Executive Remuneration 2026,People Shared,u003,Confidential-HR,group:people-team
+f003,Board Pack October 2026,Board,u007,Board,group:executive
+f004,Board Pack September 2026,Board,u007,Board,anyone_with_link
+f005,FY27 Budget Model,Finance Shared,u002,Finance,group:finance-team
+f006,Supplier Bank Details Register,Finance Shared,u002,Finance,domain
+f007,Driver Medical Clearances,People Shared,u013,Confidential-HR,group:people-team
+f008,Fleet Maintenance SOP v4,Fleet Engineering,u004,Internal,domain
+f009,Customer Rate Card 2026,Sales,u009,Internal,domain
+f010,Acquisition Target Shortlist,Legal,u010,Board,group:executive
+f011,Leave Policy (current),People Shared,u003,Internal,domain
+f012,Office Relocation FAQ,Operations,u001,Public,domain
+f013,Payroll Exceptions Q3,Finance Shared,u022,Confidential-HR,group:all-finance-readers
+f014,Incident Postmortem Telematics Outage,IT and Security,u008,Internal,group:all-staff

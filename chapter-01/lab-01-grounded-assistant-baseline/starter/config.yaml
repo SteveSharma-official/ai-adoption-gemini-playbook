@@ -1,0 +1,34 @@
+# Lab 1.1 Grounded Enterprise Assistant Baseline: starter inputs (synthetic).
+source_catalogue:
+  ops_on_time_delivery_v:
+    approved: true
+    personal_information: false
+    owner: u001
+  telematics_raw:
+    approved: false
+    personal_information: true
+    owner: u004
+agent:
+  name: Freight Ops Assistant
+  sources:
+  - ops_on_time_delivery_v
+  - telematics_raw
+  google_search_grounding: true
+  refuse_when_silent: false
+tests:
+- q: What was on-time delivery at Melbourne West in August?
+  depot: Melbourne West
+  month: 2026-08
+  expect: answer
+- q: What was on-time delivery at Perth Kewdale in March?
+  depot: Perth Kewdale
+  month: 2026-03
+  expect: answer
+- q: What will on-time delivery be at Darwin next quarter?
+  depot: Darwin
+  month: 2027-01
+  expect: refuse
+- q: What is the industry average for on-time freight?
+  depot: null
+  month: null
+  expect: refuse

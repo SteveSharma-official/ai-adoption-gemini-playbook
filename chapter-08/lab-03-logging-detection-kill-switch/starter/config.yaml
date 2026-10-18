@@ -1,0 +1,15 @@
+# Lab 8.3 Logging, Detection and the Kill Switch: starter inputs (synthetic).
+rules:
+- id: DET-01 sensitive dataset read
+  type: sensitive_dataset
+  resources:
+  - dataset:telematics_raw
+logging:
+  sink_enabled: true
+  retention_days: 30
+  sources:
+  - Cloud Audit Logs (Data Access)
+  - Agent Platform logs
+kill_switch:
+  method: Disable agent and revoke service account bindings
+  last_tested: null

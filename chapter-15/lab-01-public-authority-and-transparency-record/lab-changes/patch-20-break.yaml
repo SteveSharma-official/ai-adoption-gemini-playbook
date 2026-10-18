@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 15.1 break it safely: A batch job lets the agent refuse another application.
+applications__append:
+- id: APP-304
+  outcome: refused
+  adverse: true
+  decided_by: agent
+  reasons_recorded: false

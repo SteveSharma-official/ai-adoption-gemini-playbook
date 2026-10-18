@@ -1,0 +1,5 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.2 break it safely: Someone adds the graduate to a broad finance readers group.
+group_changes:
+  all-finance-readers:
+    add:
+    - u012

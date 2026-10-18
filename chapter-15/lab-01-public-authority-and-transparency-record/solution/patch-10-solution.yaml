@@ -1,0 +1,21 @@
+# Lab 15.1 solution overlay. Merged over config.yaml.
+applications:
+- id: APP-301
+  outcome: approved
+  adverse: false
+  decided_by: human
+  reasons_recorded: true
+- id: APP-302
+  outcome: refused
+  adverse: true
+  decided_by: human
+  reasons_recorded: true
+- id: APP-303
+  outcome: more information requested
+  adverse: false
+  decided_by: human
+  reasons_recorded: true
+transparency_record:
+  human_decision_maker: Delegated Permits Officer (EL1)
+  review_rights: Internal review within 28 days, then external review
+  contact: permits-ai@agency.example

@@ -1,0 +1,8 @@
+# Lab 7.1 solution overlay. Merged over config.yaml.
+matrix:
+  consequential_threshold: 5000
+  actions:
+    create_purchase_order:
+      agent: approval
+      auto_limit: 5000
+      approver: Procurement manager

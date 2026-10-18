@@ -1,0 +1,8 @@
+# Lab 1.2 Process Baseline and the 90-Day Plan: starter inputs (synthetic).
+plan:
+  process: Freight claims handling
+  business_owner: u001
+  baseline_hours: null
+  target_hours: 110
+  day_90_gate: '2027-01-29'
+  executive_sponsor: u007

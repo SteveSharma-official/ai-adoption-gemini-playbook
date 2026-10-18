@@ -1,0 +1,28 @@
+# Lab 10.1 Escalation and Failure Paths: starter inputs (synthetic).
+agent:
+  confidence_threshold: 0.5
+  escalate_states: []
+  always_escalate_topics: []
+  escalation_target: null
+tests:
+- q: How many weeks of parental leave do I get?
+  state: VIC
+  confidence: 0.92
+  expect: answer
+- q: How many weeks of parental leave do I get?
+  state: WA
+  confidence: 0.88
+  expect: escalate
+- q: Can I take leave during my probation?
+  state: NSW
+  confidence: 0.55
+  expect: escalate
+- q: I am being bullied by my manager
+  state: QLD
+  confidence: 0.9
+  topic: wellbeing
+  expect: escalate
+- q: Where do I submit a travel claim?
+  state: VIC
+  confidence: 0.97
+  expect: answer

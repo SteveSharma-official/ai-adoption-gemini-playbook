@@ -1,0 +1,26 @@
+# Lab 14.1 Clinical Safety Router: starter inputs (synthetic).
+router:
+  critical_route: null
+  max_minutes: 240
+agent:
+  allowed_outputs:
+  - draft_discharge_summary
+  - draft_referral_letter
+results:
+- patient: P-1001
+  test: Potassium
+  value: 6.8
+  critical_at: 6.0
+- patient: P-1002
+  test: Potassium
+  value: 4.1
+  critical_at: 6.0
+- patient: P-1003
+  test: Troponin
+  value: 120
+  critical_at: 52
+agent_outputs:
+- patient: P-1002
+  type: draft_discharge_summary
+- patient: P-1003
+  type: approve_discharge

@@ -1,0 +1,8 @@
+# Lab 3.1 solution overlay. Merged over config.yaml.
+hypothesis:
+  metric: Median claim cycle time (hours, received to paid)
+  metric_type: business
+  baseline: 147.0
+  target: 110
+  direction: down
+  measured_by: Claims system event log

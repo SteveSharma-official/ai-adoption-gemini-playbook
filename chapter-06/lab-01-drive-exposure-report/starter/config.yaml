@@ -1,0 +1,7 @@
+# Lab 6.1 Drive and Shared Drive Exposure Report: starter inputs (synthetic).
+crown_jewel_labels:
+- Confidential-HR
+- Board
+- Finance
+remediation: {}
+dlp_rules: []

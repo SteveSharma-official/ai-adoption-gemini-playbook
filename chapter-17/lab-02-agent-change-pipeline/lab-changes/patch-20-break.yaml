@@ -1,0 +1,8 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 17.2 break it safely: A model alias that floats to the newest version is deployed.
+changes__append:
+- id: CHG-103
+  type: model
+  model_version: gemini-latest
+  eval_passed: true
+  approved_by: u001
+  deployed: true

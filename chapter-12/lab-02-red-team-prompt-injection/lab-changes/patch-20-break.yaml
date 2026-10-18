@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 12.2 break it safely: A performance tweak turns off screening of retrieved content.
+defences:
+  screen_retrieved_content: false
+  retrieved_content_as_data: false

@@ -1,0 +1,18 @@
+# Lab 17.3 FinOps Cost Model: starter inputs (synthetic).
+guardrails:
+  budget_alerts: []
+  monthly_cap: null
+licences:
+  seats: 400
+  active: 190
+agents:
+- name: Claims Assistant
+  monthly_calls: 52000
+  cost_per_call: 0.04
+  outcomes_per_month: 420
+  value_per_outcome: 22
+- name: Quote Drafting
+  monthly_calls: 90000
+  cost_per_call: 0.06
+  outcomes_per_month: 150
+  value_per_outcome: 18

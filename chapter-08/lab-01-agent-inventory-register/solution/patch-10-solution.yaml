@@ -1,0 +1,17 @@
+# Lab 8.1 solution overlay. Merged over config.yaml.
+register:
+- agent_id: ag-01
+  owner: u001
+  risk_tier: medium
+- agent_id: ag-02
+  owner: u003
+  risk_tier: high
+- agent_id: ag-03
+  owner: u002
+  risk_tier: high
+- agent_id: ag-04
+  owner: u009
+  risk_tier: low
+- agent_id: ag-05
+  owner: u006
+  risk_tier: medium

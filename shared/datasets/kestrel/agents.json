@@ -1,0 +1,37 @@
+[
+  {
+    "agent_id": "ag-01",
+    "name": "Freight Ops Assistant",
+    "owner": "u001",
+    "surface": "Gemini Enterprise app",
+    "status": "pilot"
+  },
+  {
+    "agent_id": "ag-02",
+    "name": "HR Answers Agent",
+    "owner": "u027",
+    "surface": "Gemini Enterprise app",
+    "status": "pilot"
+  },
+  {
+    "agent_id": "ag-03",
+    "name": "Procurement Agent",
+    "owner": "u002",
+    "surface": "Agent Platform (ADK)",
+    "status": "build"
+  },
+  {
+    "agent_id": "ag-04",
+    "name": "Quote Drafting Gem",
+    "owner": "u009",
+    "surface": "Gemini app (Gem)",
+    "status": "in use"
+  },
+  {
+    "agent_id": "ag-05",
+    "name": "Customs Doc Checker",
+    "owner": "u048",
+    "surface": "Agent Platform (ADK)",
+    "status": "in use"
+  }
+]

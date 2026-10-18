@@ -1,0 +1,9 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 5.1 break it safely: Sales adds a Quote Agent on the App Engine default identity, with Google Search grounding.
+architecture:
+  agents__append:
+  - name: Quote Agent
+    identity: kestrel-ops@appspot.gserviceaccount.com
+    owner: u009
+    logging: Cloud Logging sink agent-audit
+    classification: internal
+    google_search_grounding: true

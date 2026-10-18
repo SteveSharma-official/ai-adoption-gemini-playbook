@@ -1,0 +1,8 @@
+# Lab 0.2 AI Adoption Maturity Self-Assessment: starter inputs (synthetic).
+claimed_level: 3
+evidence:
+  named_use_case: Freight claims triage
+  business_owner: u001
+  risk_assessment: RA-2026-14
+  data_boundary: null
+  logging: Cloud Logging sink (partial)

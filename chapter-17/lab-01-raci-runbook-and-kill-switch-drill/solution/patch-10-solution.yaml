@@ -1,0 +1,19 @@
+# Lab 17.1 solution overlay. Merged over config.yaml.
+raci:
+  ag-02:
+    accountable: u003
+    responsible: u013
+  ag-05:
+    accountable: u006
+    responsible: u016
+runbook:
+  ag-02:
+    disable_steps:
+    - Disable agent in Gemini Enterprise app
+    - Disconnect HR data store
+    last_drill: '2026-10-10'
+  ag-05:
+    disable_steps:
+    - Undeploy from Agent Runtime
+    - Revoke identity
+    last_drill: '2026-10-10'

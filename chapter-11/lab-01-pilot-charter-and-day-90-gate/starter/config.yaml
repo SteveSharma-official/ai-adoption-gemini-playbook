@@ -1,0 +1,15 @@
+# Lab 11.1 Pilot Charter and the Day 90 Gate: starter inputs (synthetic).
+charter:
+  process: Freight claims handling
+  baseline: 147.0
+  target: 110
+  safety_floors:
+    groundedness: 0.95
+    escalation: 1.0
+  executive_sponsor: u007
+measured:
+  value_metric: 121
+  groundedness: 0.96
+  escalation: 1.0
+  readiness_signed: false
+decision: Go

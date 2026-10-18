@@ -1,0 +1,8 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 6.1 break it safely: An executive assistant shares next month's board pack by link.
+new_files:
+- file_id: f015
+  title: Board Pack November 2026 (draft)
+  shared_drive: Board
+  owner: u007
+  label: Board
+  sharing: anyone_with_link

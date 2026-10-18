@@ -1,0 +1,7 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 8.1 break it safely: A leaver's 'Rates Bot' surfaces in a new scan.
+discovered_extra:
+- agent_id: ag-06
+  name: Rates Bot
+  owner: u048
+  surface: Agent Platform (ADK)
+  status: in use

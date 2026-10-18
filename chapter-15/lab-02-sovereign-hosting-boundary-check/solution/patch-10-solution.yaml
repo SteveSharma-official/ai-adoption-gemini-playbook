@@ -1,0 +1,9 @@
+# Lab 15.2 solution overlay. Merged over config.yaml.
+deployment:
+  model_endpoint_region: australia-southeast1
+  agency_authorisation:
+    date: '2026-10-12'
+    by: Agency CISO
+    basis: IRAP report reviewed, residual risks accepted
+  confirmations:
+    Gemini Enterprise app: Confirmed with Google account team against the current IRAP report scope; record reference GC-IRAP-2026-Q3 (placeholder)

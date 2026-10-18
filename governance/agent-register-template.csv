@@ -1,0 +1,2 @@
+agent_id,name,surface,owner,risk_tier,identity,data_sources,last_review,runbook
+ag-01,<name>,Gemini Enterprise app,<owner>,medium,<service account or agent identity>,<sources>,2026-10-18,<link>

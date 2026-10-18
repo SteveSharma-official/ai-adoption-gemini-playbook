@@ -1,0 +1,10 @@
+# Lab 16.1 solution overlay. Merged over config.yaml.
+tools:
+- name: maintenance_sop_search
+  zone: L4
+  access: read
+  purpose: Find SOP steps
+- name: historian_replica_read
+  zone: L3.5
+  access: read
+  purpose: Read replicated conveyor telemetry

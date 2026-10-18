@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 3.1 break it safely: Marketing changes the success measure to adoption rate for the internal newsletter.
+hypothesis:
+  metric: Gemini adoption rate across claims staff
+  metric_type: activity

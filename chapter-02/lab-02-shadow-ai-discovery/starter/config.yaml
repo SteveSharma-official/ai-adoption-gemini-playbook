@@ -1,0 +1,5 @@
+# Lab 2.2 Shadow AI Discovery: starter inputs (synthetic).
+decisions:
+  Gemini (sanctioned):
+    decision: approve
+    owner: u008

@@ -1,0 +1,12 @@
+# Lab 2.2 solution overlay. Merged over config.yaml.
+decisions:
+  MeetNotes AI:
+    decision: block
+    owner: u008
+  PDF Chat Pro:
+    decision: block
+    owner: u008
+  Grammar Helper:
+    decision: review
+    owner: u008
+    due: '2026-11-15'

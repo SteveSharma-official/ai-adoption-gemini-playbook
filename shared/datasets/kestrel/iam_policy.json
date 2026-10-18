@@ -1,0 +1,40 @@
+{
+  "project": "kestrel-ops",
+  "bindings": [
+    {
+      "role": "roles/bigquery.dataViewer",
+      "members": [
+        "serviceAccount:freight-assistant@kestrel-ops.iam.gserviceaccount.com"
+      ],
+      "resource": "dataset:ops_curated"
+    },
+    {
+      "role": "roles/bigquery.dataViewer",
+      "members": [
+        "serviceAccount:freight-assistant@kestrel-ops.iam.gserviceaccount.com"
+      ],
+      "resource": "dataset:telematics_raw"
+    },
+    {
+      "role": "roles/editor",
+      "members": [
+        "serviceAccount:hr-answers@kestrel-ops.iam.gserviceaccount.com"
+      ],
+      "resource": "project"
+    },
+    {
+      "role": "roles/aiplatform.user",
+      "members": [
+        "serviceAccount:procure-agent@kestrel-ops.iam.gserviceaccount.com"
+      ],
+      "resource": "project"
+    },
+    {
+      "role": "roles/editor",
+      "members": [
+        "serviceAccount:123456789-compute@developer.gserviceaccount.com"
+      ],
+      "resource": "project"
+    }
+  ]
+}

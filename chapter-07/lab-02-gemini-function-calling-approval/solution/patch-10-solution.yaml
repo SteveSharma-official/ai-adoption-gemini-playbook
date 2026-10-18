@@ -1,0 +1,24 @@
+# Lab 7.2 solution overlay. Merged over config.yaml.
+tools:
+- name: get_po_status
+  consequential: false
+- name: create_purchase_order
+  consequential: true
+  requires_approval: true
+  max_amount: 50000
+trace:
+- call: get_po_status
+  args:
+    po: PO-1182
+  executed: true
+- call: create_purchase_order
+  args:
+    supplier: S-210
+    amount: 48000
+  executed: false
+- call: create_purchase_order
+  args:
+    supplier: S-210
+    amount: 48000
+  approval_token: APR-7731
+  executed: true

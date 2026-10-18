@@ -1,0 +1,11 @@
+# Lab 8.3 solution overlay. Merged over config.yaml.
+rules__append:
+- id: DET-02 consequential tool without approval
+  type: consequential_tool_without_approval
+- id: DET-03 service account key created
+  type: key_creation
+logging:
+  retention_days: 400
+kill_switch:
+  last_tested: '2026-10-10'
+  drill_record: KS-DRILL-003

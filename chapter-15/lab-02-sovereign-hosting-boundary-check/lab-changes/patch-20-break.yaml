@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 15.2 break it safely: A developer moves the data store to us-central1 for a preview feature.
+deployment:
+  data_region: us-central1

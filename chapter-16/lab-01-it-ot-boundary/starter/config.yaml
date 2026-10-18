@@ -1,0 +1,11 @@
+# Lab 16.1 IT and OT Boundary: starter inputs (synthetic).
+dmz_zone: L3.5
+tools:
+- name: maintenance_sop_search
+  zone: L4
+  access: read
+  purpose: Find SOP steps
+- name: scada_live_tags
+  zone: L2
+  access: read
+  purpose: Read live depot conveyor tags

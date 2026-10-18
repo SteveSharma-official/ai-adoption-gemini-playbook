@@ -1,0 +1,21 @@
+# Lab 15.1 Public Authority Line and Transparency Record: starter inputs (synthetic).
+applications:
+- id: APP-301
+  outcome: approved
+  adverse: false
+  decided_by: human
+  reasons_recorded: true
+- id: APP-302
+  outcome: refused
+  adverse: true
+  decided_by: agent
+  reasons_recorded: false
+- id: APP-303
+  outcome: more information requested
+  adverse: false
+  decided_by: human
+  reasons_recorded: false
+transparency_record:
+  purpose: Prepare case summaries for permit assessors
+  data_used: Application form, licensing register
+  how_ai_is_used: Summarises and checks completeness

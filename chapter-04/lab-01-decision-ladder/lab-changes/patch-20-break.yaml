@@ -1,0 +1,4 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 4.1 break it safely: A team proposes a custom-built policy FAQ agent.
+workloads__append:
+- id: policy-faq
+  chosen_rung: Build

@@ -1,0 +1,6 @@
+# Lab 1.1 solution overlay. Merged over config.yaml.
+agent:
+  sources:
+  - ops_on_time_delivery_v
+  google_search_grounding: false
+  refuse_when_silent: true

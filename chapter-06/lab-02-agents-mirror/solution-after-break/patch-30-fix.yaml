@@ -1,0 +1,6 @@
+# Lab 6.2 fix after the break. Merged last.
+group_changes:
+  all-finance-readers:
+    add: []
+    remove:
+    - u012

@@ -1,0 +1,21 @@
+# Lab 7.2 Gemini Function Calling Behind an Approval Gate: starter inputs (synthetic).
+allowlist:
+- get_po_status
+- create_purchase_order
+tools:
+- name: get_po_status
+  consequential: false
+- name: create_purchase_order
+  consequential: true
+  requires_approval: false
+  max_amount: 50000
+trace:
+- call: get_po_status
+  args:
+    po: PO-1182
+  executed: true
+- call: create_purchase_order
+  args:
+    supplier: S-210
+    amount: 48000
+  executed: true

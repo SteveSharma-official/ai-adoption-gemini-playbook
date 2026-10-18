@@ -1,0 +1,23 @@
+# Lab 16.2 Retail Pricing and Refund Rules: starter inputs (synthetic).
+rules_engine:
+  refund_auto_limit: 100
+  route_vulnerable: false
+agent_can_execute:
+- refund
+- refund_any
+- price_change
+requests:
+- id: RT-1
+  type: refund
+  amount: 45
+- id: RT-2
+  type: refund
+  amount: 640
+- id: RT-3
+  type: price_change
+  amount: 0
+- id: RT-4
+  type: refund
+  amount: 80
+  flags:
+  - vulnerable

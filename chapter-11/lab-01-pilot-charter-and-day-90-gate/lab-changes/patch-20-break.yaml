@@ -1,0 +1,3 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 11.1 break it safely: A late evaluation run shows groundedness has fallen below the floor.
+measured:
+  groundedness: 0.9

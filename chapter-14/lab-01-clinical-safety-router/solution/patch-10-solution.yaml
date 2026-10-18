@@ -1,0 +1,7 @@
+# Lab 14.1 solution overlay. Merged over config.yaml.
+router:
+  critical_route: On-call registrar (page)
+  max_minutes: 30
+agent_outputs:
+- patient: P-1002
+  type: draft_discharge_summary

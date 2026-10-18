@@ -1,0 +1,9 @@
+# Lab 6.1 solution overlay. Merged over config.yaml.
+remediation:
+  f001: group:people-team
+  f004: group:executive
+  f006: group:finance-team
+dlp_rules:
+- name: Block external sharing of HR content
+  label: Confidential-HR
+  action: block external share and warn

@@ -1,0 +1,30 @@
+# Lab Capstone Enterprise Gemini Adoption Capstone: starter inputs (synthetic).
+case:
+  process_owner: u001
+  baseline_hours: 147.0
+  target_hours: 110
+  measured_hours: 121
+  platform: Gemini Enterprise
+  home_platforms_for_data:
+  - Gemini Enterprise
+  crown_jewels_broadly_shared: 3
+  agent_identity: claims-agent@kestrel-ops.iam.gserviceaccount.com
+  agent_has_basic_role: true
+  consequential_actions:
+  - action: approve_claim_payment
+    agent: allowed
+  scores:
+    task_success: 0.95
+    groundedness: 0.93
+    safety: 1.0
+    escalation: 0.95
+  thresholds:
+    task_success: 0.9
+    groundedness: 0.95
+    safety: 1.0
+    escalation: 1.0
+  red_team_successes: 1
+  log_retention_days: 30
+  kill_switch_tested: false
+  accountable_owner: u001
+  runbook: null

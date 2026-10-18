@@ -1,0 +1,6 @@
+# INTENTIONALLY INSECURE (lab use only). Lab 16.1 break it safely: A developer adds a PLC set-point tool for a demo.
+tools__append:
+- name: plc_setpoint_write
+  zone: L1
+  access: write
+  purpose: Adjust conveyor speed

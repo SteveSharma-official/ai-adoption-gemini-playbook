@@ -1,0 +1,9 @@
+# Lab 3.1 Value Hypothesis and Baseline: starter inputs (synthetic).
+hypothesis:
+  process: Freight claims handling
+  metric: Prompts per active user per week
+  metric_type: activity
+  baseline: null
+  target: null
+  measured_by: null
+  owner: u001

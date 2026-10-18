@@ -1,0 +1,14 @@
+# Lab 17.2 Agent Change Pipeline: starter inputs (synthetic).
+changes:
+- id: CHG-101
+  type: prompt
+  model_version: gemini-model-pinned-2026-09
+  eval_passed: true
+  approved_by: u001
+  deployed: true
+- id: CHG-102
+  type: tool
+  model_version: gemini-model-pinned-2026-09
+  eval_passed: false
+  approved_by: null
+  deployed: true

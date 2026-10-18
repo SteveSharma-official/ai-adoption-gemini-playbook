@@ -1,0 +1,13 @@
+# Lab 18.1 fix after the break. Merged last.
+backlog__remove:
+- B4
+backlog__append:
+- id: B4
+  name: Sales forecasting agent
+  value: 7
+  risk: 3
+  effort: 3
+  uses:
+  - agent identity pattern
+  - logging pipeline
+  - Agent Gateway

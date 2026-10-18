@@ -1,0 +1,5 @@
+# Lab 8.1 fix after the break. Merged last.
+register__append:
+- agent_id: ag-06
+  owner: u009
+  risk_tier: medium

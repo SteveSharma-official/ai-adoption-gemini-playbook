@@ -1,0 +1,61 @@
+user_id,name,email,department,state,role,status
+u001,Ethan Brown,u001@kestrel.example,Operations,VIC,Manager,active
+u002,Grace Taylor,u002@kestrel.example,Finance,VIC,Staff,active
+u003,Luca Kelly,u003@kestrel.example,People,NSW,Staff,active
+u004,Aria Khan,u004@kestrel.example,Fleet Engineering,QLD,Staff,active
+u005,Jack Hall,u005@kestrel.example,Customer Service,NSW,Staff,active
+u006,Priya Wright,u006@kestrel.example,Customs Brokerage,WA,Staff,active
+u007,Ben Smith,u007@kestrel.example,Executive,VIC,Staff,active
+u008,Lily Wilson,u008@kestrel.example,IT and Security,VIC,Staff,active
+u009,Noah Singh,u009@kestrel.example,Sales,QLD,Staff,active
+u010,Chloe Rossi,u010@kestrel.example,Legal,VIC,Staff,active
+u011,Omar Lee,u011@kestrel.example,Operations,VIC,Manager,active
+u012,Sofia Young,u012@kestrel.example,Finance,VIC,Graduate,active
+u013,Liam Scott,u013@kestrel.example,People,NSW,Staff,active
+u014,Ruby Patel,u014@kestrel.example,Fleet Engineering,QLD,Staff,active
+u015,Sam Chen,u015@kestrel.example,Customer Service,NSW,Staff,active
+u016,Maya Martin,u016@kestrel.example,Customs Brokerage,WA,Staff,active
+u017,Dev Walker,u017@kestrel.example,Executive,VIC,Staff,active
+u018,Zara Murphy,u018@kestrel.example,IT and Security,VIC,Staff,active
+u019,Tom King,u019@kestrel.example,Sales,QLD,Staff,active
+u020,Hana Nguyen,u020@kestrel.example,Legal,VIC,Staff,active
+u021,Max Brown,u021@kestrel.example,Operations,VIC,Manager,active
+u022,Isla Taylor,u022@kestrel.example,Finance,VIC,Staff,active
+u023,Leo Kelly,u023@kestrel.example,People,NSW,Staff,active
+u024,Ella Khan,u024@kestrel.example,Fleet Engineering,QLD,Staff,active
+u025,Kai Hall,u025@kestrel.example,Customer Service,NSW,Staff,active
+u026,Mia Wright,u026@kestrel.example,Customs Brokerage,WA,Staff,active
+u027,Arjun Smith,u027@kestrel.example,Executive,VIC,Staff,leaver
+u028,Nina Wilson,u028@kestrel.example,IT and Security,VIC,Staff,active
+u029,Ravi Singh,u029@kestrel.example,Sales,QLD,Staff,active
+u030,Ava Rossi,u030@kestrel.example,Legal,VIC,Staff,active
+u031,Ethan Lee,u031@kestrel.example,Operations,VIC,Manager,active
+u032,Grace Young,u032@kestrel.example,Finance,VIC,Staff,active
+u033,Luca Scott,u033@kestrel.example,People,NSW,Graduate,active
+u034,Aria Patel,u034@kestrel.example,Fleet Engineering,QLD,Staff,active
+u035,Jack Chen,u035@kestrel.example,Customer Service,NSW,Staff,active
+u036,Priya Martin,u036@kestrel.example,Customs Brokerage,WA,Staff,active
+u037,Ben Walker,u037@kestrel.example,Executive,VIC,Staff,active
+u038,Lily Murphy,u038@kestrel.example,IT and Security,VIC,Staff,active
+u039,Noah King,u039@kestrel.example,Sales,QLD,Staff,active
+u040,Chloe Nguyen,u040@kestrel.example,Legal,VIC,Staff,active
+u041,Omar Brown,u041@kestrel.example,Operations,VIC,Manager,active
+u042,Sofia Taylor,u042@kestrel.example,Finance,VIC,Staff,active
+u043,Liam Kelly,u043@kestrel.example,People,NSW,Staff,active
+u044,Ruby Khan,u044@kestrel.example,Fleet Engineering,QLD,Staff,active
+u045,Sam Hall,u045@kestrel.example,Customer Service,NSW,Staff,active
+u046,Maya Wright,u046@kestrel.example,Customs Brokerage,WA,Staff,active
+u047,Dev Smith,u047@kestrel.example,Executive,VIC,Staff,active
+u048,Zara Wilson,u048@kestrel.example,IT and Security,VIC,Staff,leaver
+u049,Tom Singh,u049@kestrel.example,Sales,QLD,Staff,active
+u050,Hana Rossi,u050@kestrel.example,Legal,VIC,Staff,active
+u051,Max Lee,u051@kestrel.example,Operations,VIC,Manager,active
+u052,Isla Young,u052@kestrel.example,Finance,VIC,Staff,active
+u053,Leo Scott,u053@kestrel.example,People,NSW,Staff,active
+u054,Ella Patel,u054@kestrel.example,Fleet Engineering,QLD,Staff,active
+u055,Kai Chen,u055@kestrel.example,Customer Service,NSW,Staff,active
+u056,Mia Martin,u056@kestrel.example,Customs Brokerage,WA,Staff,active
+u057,Arjun Walker,u057@kestrel.example,Executive,VIC,Staff,active
+u058,Nina Murphy,u058@kestrel.example,IT and Security,VIC,Staff,active
+u059,Ravi King,u059@kestrel.example,Sales,QLD,Staff,active
+u060,Ava Nguyen,u060@kestrel.example,Legal,VIC,Staff,active

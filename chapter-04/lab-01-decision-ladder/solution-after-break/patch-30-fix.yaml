@@ -1,0 +1,6 @@
+# Lab 4.1 fix after the break. Merged last.
+workloads__remove:
+- policy-faq
+workloads__append:
+- id: policy-faq
+  chosen_rung: Buy

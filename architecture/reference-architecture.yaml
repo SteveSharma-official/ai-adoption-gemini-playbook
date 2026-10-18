@@ -1,0 +1,34 @@
+# Kestrel Freight Group reference architecture (solution state of Lab 5.1)
+architecture:
+  layers:
+    productivity:
+    - Gemini in Workspace (Gmail, Docs, Sheets, Meet)
+    - NotebookLM Enterprise
+    agent_experience:
+    - Gemini Enterprise app
+    - 'Connectors: Drive, BigQuery'
+    build_and_run:
+    - 'Gemini Enterprise Agent Platform: Agent Studio, ADK, Agent Runtime'
+    data_and_grounding:
+    - BigQuery ops_curated
+    - 'Drive: Operations Shared Drive'
+    security_and_governance:
+    - Cloud IAM and organisation policies
+    - VPC Service Controls perimeter
+    - Agent Gateway with Model Armor
+    - Workspace DLP and Drive labels
+    - Cloud Audit Logs to SIEM
+  agents:
+  - name: Freight Ops Assistant
+    identity: freight-assistant@kestrel-ops.iam.gserviceaccount.com
+    owner: u001
+    logging: Cloud Logging sink agent-audit
+    classification: internal
+  - name: Procurement Agent
+    identity: procure-agent@kestrel-ops.iam.gserviceaccount.com
+    owner: u002
+    logging: Cloud Logging sink agent-audit
+    classification: internal
+  locked:
+    Agent Marketplace third-party agents: No vendor review process yet
+    Long-running agents: Kill switch not yet tested (Lab 8.3)

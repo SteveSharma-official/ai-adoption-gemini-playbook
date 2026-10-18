@@ -1,0 +1,16 @@
+# Lab 2.1 solution overlay. Merged over config.yaml.
+workloads:
+- id: ops-delivery-analysis
+  data_location: BigQuery
+  platform: Gemini Enterprise
+- id: customs-email-drafting
+  data_location: Exchange
+  platform: Microsoft 365 Copilot
+- id: route-analysis
+  data_location: BigQuery
+  platform: Gemini Enterprise
+- id: group-policy-search
+  data_location: SharePoint
+  platform: Gemini Enterprise
+  connector_justification: One search experience across Drive and the Customs SharePoint via a Gemini Enterprise connector; read-only, identity-mapped,
+    reviewed by the CISO

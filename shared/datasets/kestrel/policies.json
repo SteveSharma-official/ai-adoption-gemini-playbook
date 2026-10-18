@@ -1,0 +1,30 @@
+[
+  {
+    "doc": "leave-policy",
+    "version": 3,
+    "status": "superseded",
+    "effective": "2023-07-01",
+    "text": "Parental leave: 12 weeks paid primary carer leave for all staff."
+  },
+  {
+    "doc": "leave-policy",
+    "version": 4,
+    "status": "current",
+    "effective": "2025-07-01",
+    "text": "Parental leave: 18 weeks paid primary carer leave. State award variations apply in WA; refer WA staff to People team."
+  },
+  {
+    "doc": "travel-policy",
+    "version": 2,
+    "status": "current",
+    "effective": "2025-01-01",
+    "text": "Interstate travel requires manager approval and economy fares under 1000 dollars."
+  },
+  {
+    "doc": "fleet-sop",
+    "version": 4,
+    "status": "current",
+    "effective": "2026-02-01",
+    "text": "Brake inspection every 20000 km. Lock out and tag out before any hydraulic work."
+  }
+]
