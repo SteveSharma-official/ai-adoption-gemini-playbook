@@ -15,38 +15,41 @@ Local proof sequence: **35 of 35 labs passed** (starter, solution, break it safe
 
 | Lab | Local sequence | Cloud or Workspace steps | GitHub Actions |
 |---|---|---|---|
-| 0.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 0.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 1.1 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | EXECUTION VALIDATION REQUIRED |
-| 1.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 2.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 2.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 3.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 4.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 5.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 5.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 6.1 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | EXECUTION VALIDATION REQUIRED |
-| 6.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 6.3 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 7.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 7.2 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | EXECUTION VALIDATION REQUIRED |
-| 8.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 8.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 8.3 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 9.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 10.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 11.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 12.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 12.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 12.3 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 13.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 14.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 15.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 15.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 16.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 16.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 17.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 17.2 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 17.3 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| 18.1 | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
-| Capstone | LOCALLY VALIDATED | Not applicable | EXECUTION VALIDATION REQUIRED |
+| 0.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 0.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 1.1 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 1.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 2.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 2.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 3.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 4.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 5.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 5.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 6.1 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 6.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 6.3 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 7.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 7.2 | LOCALLY VALIDATED | CLOUD VALIDATION REQUIRED | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 8.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 8.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 8.3 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 9.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 10.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 11.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 12.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 12.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 12.3 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 13.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 14.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 15.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 15.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 16.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 16.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 17.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 17.2 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 17.3 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| 18.1 | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+| Capstone | LOCALLY VALIDATED | Not applicable | PASSED (hosted runner, 18 and 20 Oct 2026) |
+
+## GitHub Actions
+The validate-labs workflow regenerates the datasets, checks they are unchanged, and runs every lab's proof sequence. It passed on GitHub's hosted ubuntu-latest runner with Python 3.13 on 18 October 2026 (push) and 20 October 2026 (weekly schedule), both on commit 9f95acb.

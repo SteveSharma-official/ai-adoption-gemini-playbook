@@ -98,7 +98,7 @@ Patches are merged over `config.yaml` in name order, so every change in the proo
 | `tests/` | The proof sequence test for every lab |
 
 ## Validation status
-Local proof sequence: **35 of 35 labs passed** on 2026-10-18 (Linux container, Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3). Cloud and Workspace paths and the GitHub Actions workflow have not been executed.
+Local proof sequence: **35 of 35 labs passed** on 2026-10-18 (Linux container, Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3). The GitHub Actions workflow (validate-labs) has run on a hosted runner and passed: push run on 18 October 2026 and scheduled run on 20 October 2026. The optional cloud and Workspace paths have not been executed.
 See docs/validation-status.md. A status is never raised without a recorded run.
 
 ## Licence and safety

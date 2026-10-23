@@ -1,6 +1,6 @@
 # Lab 0.1 Quick Start and Lab Safety Check
 
-**Book:** Chapter 0, section "0.6 Labs, Assets and the Living Book"
+**Book:** Introduction, section "How the book, templates and labs work together"
 **Difficulty:** Level 1 (Explore)
 **Effort:** 20 minutes
 **Execution paths:** Local (default, synthetic data, no API key)
@@ -138,4 +138,4 @@ Delete `workspace/lab-0.1`. No cloud resources are created by the local lab.
 Add a pre-commit hook that runs this check before every commit.
 
 ---
-Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: EXECUTION VALIDATION REQUIRED on a hosted runner.
+Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: PASSED on a hosted runner (validate-labs, ubuntu-latest, Python 3.13: push run 18 October 2026 and scheduled run 20 October 2026, commit 9f95acb).

@@ -1,5 +1,5 @@
 # Runs every lab's proof sequence. Read-only.
-# Status: EXECUTION VALIDATION REQUIRED (not yet run on a hosted runner).
+# Status: passed on GitHub's hosted runner (18 and 20 October 2026).
 # Before publication: pin each action to a full commit SHA and verify the versions.
 name: validate-labs
 on:

@@ -144,4 +144,4 @@ Delete `workspace/lab-6.1`. If you used the cloud path, delete the sandbox resou
 Add a Legal privilege label and remediate it.
 
 ---
-Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: EXECUTION VALIDATION REQUIRED on a hosted runner. Optional cloud or Workspace path: CLOUD VALIDATION REQUIRED.
+Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: PASSED on a hosted runner (validate-labs, ubuntu-latest, Python 3.13: push run 18 October 2026 and scheduled run 20 October 2026, commit 9f95acb). Optional cloud or Workspace path: CLOUD VALIDATION REQUIRED.

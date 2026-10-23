@@ -3,7 +3,7 @@
     "id": "0.1",
     "title": "Quick Start and Lab Safety Check",
     "path": "chapter-00/lab-01-quick-start",
-    "section": "0.6 Labs, Assets and the Living Book",
+    "section": "How the book, templates and labs work together",
     "level": "1 (Explore)",
     "break_rule": "secret-in-config"
   },
@@ -11,7 +11,7 @@
     "id": "0.2",
     "title": "AI Adoption Maturity Self-Assessment",
     "path": "chapter-00/lab-02-maturity-self-assessment",
-    "section": "0.3 The Method in One Page",
+    "section": "The method in one page",
     "level": "1 (Explore)",
     "break_rule": "maturity-overclaim"
   },

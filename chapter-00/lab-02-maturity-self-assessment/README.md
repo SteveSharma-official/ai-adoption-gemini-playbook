@@ -1,6 +1,6 @@
 # Lab 0.2 AI Adoption Maturity Self-Assessment
 
-**Book:** Chapter 0, section "0.3 The Method in One Page"
+**Book:** Introduction, section "The method in one page"
 **Difficulty:** Level 1 (Explore)
 **Effort:** 45 minutes
 **Execution paths:** Local (default, synthetic data, no API key)
@@ -138,4 +138,4 @@ Delete `workspace/lab-0.2`. No cloud resources are created by the local lab.
 Add your own Level 3 evidence items for your organisation.
 
 ---
-Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: EXECUTION VALIDATION REQUIRED on a hosted runner.
+Validation status: LOCALLY VALIDATED: the full sequence (starter, solution, break it safely, prove the fix) passed on 2026-10-18 with Python 3.13.16, pytest 8.4.2, PyYAML 6.0.3, using synthetic data only. GitHub Actions workflow: PASSED on a hosted runner (validate-labs, ubuntu-latest, Python 3.13: push run 18 October 2026 and scheduled run 20 October 2026, commit 9f95acb).
